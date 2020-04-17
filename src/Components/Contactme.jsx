@@ -23,7 +23,7 @@ class Contactme extends Component{
                 <div className="contact-list">
                   <List>
                     <ListItem>
-                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                      <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                         <i className="fa fa-phone-square" aria-hidden="true"/>
                         8428250621
                       </ListItemContent>

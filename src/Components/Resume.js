@@ -10,9 +10,9 @@ class Resume extends Component{
             <Cell col={4}>
               <div style={{textAlign:'center'}}>
               <img
-                src="Rohit.png"
+                src="Profile.jpeg"
                 alt="avatar"
-                style={{height: '300px'}}
+                style={{height: '300px',width:'300px'}}
                  />
             </div>
     <div style={{textAlign:'center'}}>
