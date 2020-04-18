@@ -12,8 +12,9 @@ class Resume extends Component{
               <img
                 src="Profile.jpeg"
                 alt="avatar"
-                style={{height: '300px',width:'300px'}}
-                 />
+                style={{height: '300px',width:'300px',margin:'auto'}}
+                className="card" />
+                
             </div>
     <div style={{textAlign:'center'}}>
             <h2>Rohit Yadav</h2>
@@ -33,20 +34,7 @@ class Resume extends Component{
                 </Cell>
                 
             <Cell className="resume-right-col" col={8} >
-            <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-               />
-
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+            <Education/>
                 </Cell> 
             </Grid>
             </div>
