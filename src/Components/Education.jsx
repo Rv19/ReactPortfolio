@@ -9,7 +9,7 @@ class Education extends Component {
         <img
                 src="resume.jpeg"
                 alt="avatar"
-                style={{height: '900px',width:'900px',margin:'auto'}}
+                style={{height: '870px',width:'870px',margin:'auto'}}
                  />
                  
           

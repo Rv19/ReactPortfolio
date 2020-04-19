@@ -6,100 +6,29 @@ class Projects extends Component{
         return(
             <div className="projects-grid1">
                   <div className="projects-grid2">
-            <Card shadow={1} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <Card className="card" shadow={1} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React PortFolio</CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Portfolio React application tells about the Resume, Projects and many other things.
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
+                <Button style={{width:'100%'}} colored><a href="https://github.com/Rv19/ReactPortfolio">Github</a></Button>
               </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
+            
             </Card>
   
             {/* Project 2 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <Card className="card" shadow={1} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(android.jpeg)top / cover'}} >XYLO Application</CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                XYLOPHONE music App which is musical application to play xylophone
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
+                <Button style={{width:'100%'}} colored><a href="https://github.com/Rv19/XylophoneAPP">Github</a></Button>
               </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
+         
             </Card>
   
-            {/* Project 3 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-</div>
-<div className="projects-grid2">
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-  
-            {/* Project 2 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-  
-            {/* Project 3 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
-              </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
 </div>
 </div>
 

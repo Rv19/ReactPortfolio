@@ -107,6 +107,10 @@ height: 100%;
   color: black;
   margin-bottom: 20px;
 }
+.asd{
+  text-align: center;
+  
+}
 .resume-grid {
   text-align: center;
   justify-content: center;
@@ -123,6 +127,17 @@ height: 100%;
 }
 
 .contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.ach-grid {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  padding: 0.5em;
+  color: #000000;
+  
+}
+.contact-gridr {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
 }
@@ -182,7 +197,6 @@ font-weight: bold;
 .banner-text hr {
   border-top: 5px dotted white;
   width: 75%;
-  
   display: flex;
 margin: auto;
 padding: 0.5em;

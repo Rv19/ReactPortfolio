@@ -25,23 +25,23 @@ class Landingpage extends Component{
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/rohit-yadav-10a862143/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/Rv19" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          {/* Quora */}
+          <a href="https://www.quora.com/profile/Rohit-Yaduvanshi-15" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-quora" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          {/* Instagram*/}
+          <a href="https://www.instagram.com/yaduvanshi_rv1419/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-instagram" aria-hidden="true" />
           </a>
 
         </div>

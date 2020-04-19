@@ -16,43 +16,53 @@ class Achievement extends Component{
     <div class="carousel-item active">
     <Grid>
             <Cell col={10}>
-      <img src="ssb.jpeg" class="d-block w-75" width ="200px"alt="..."/>
+      <img src="ssb.jpeg" class="d-block w-100" width ="200px"alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </Cell>
       <Cell className="resume-right-col2" col={2} >
-           <h2>dsadsfds
-             ffffffffff
-             ffffffffff
-             ffffffffff
-             ffffffffff
-             ffffffffff
-             ffffffjns</h2>
-              </Cell>
+         <h2 className="asd">SSB</h2>
+            <h4 className="asd" >12 SSB Bangalore</h4> 
+            <div className="ach-grid"> 
+            <h5>Got Recommended For Indian Navy on 24th October 2019. One of the Best Moment of my life for which I was Dreaming from Childhood. Always have a passion for Armed Forces and Achieved my path in my first Attempt.</h5> 
+             <h6>For Complete Journey you can check</h6> 
+             <a href ="https://www.quora.com/profile/Rohit-Yaduvanshi-15" target="_blank">Click here</a>
+             </div>  </Cell>
       </Grid>
     </div>
     <div class="carousel-item ">
     <Grid>
             <Cell col={10}>
-      <img src="ssb.jpeg" class="d-block w-100" alt="..."/>
+      <img src="mba.jpeg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </Cell>
       <Cell className="resume-right-col2" col={2} >
-           <h2>dsadsfdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffjns</h2>
-              </Cell>
+    
+      
+          <h3 className="asd">W-OPTEC</h3>
+          
+            <h4 className="asd">Best Project</h4>     
+            <div className="ach-grid"> 
+            <h5>Got Best Project for Supply Chain Management in W-OPTEC 2019. Won the best Project among all the MBA participants.</h5> 
+             </div>  </Cell>
       </Grid>
     </div>
     <div class="carousel-item ">
     <Grid>
-            <Cell col={9}>
-      <img src="ssb.jpeg" class="d-block w-100" alt="..."/>
+            <Cell col={10}>
+      <img src="papien.jpeg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </Cell>
-      <Cell className="resume-right-col2" col={3} >
-           <h2>dsadsfdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffjns</h2>
-              </Cell>
+      <Cell className="resume-right-col2" col={2} >
+          <h3 className="asd">Papientrega</h3>
+         
+            <h4 className="asd">Best Pitch</h4>    
+            <div className="ach-grid"> 
+            <h5>Best Project Pitch for Helping Hands Application which was created for Old and Physically Disabled People.</h5> 
+             </div>
+                 </Cell>
       </Grid>
     </div>
   </div>
