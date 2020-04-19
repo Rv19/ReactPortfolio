@@ -7,7 +7,7 @@ class Projects extends Component{
             <div className="projects-grid1">
                   <div className="projects-grid2">
             <Card className="card" shadow={1} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React PortFolio</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350) center / cover'}} >React PortFolio</CardTitle>
               <CardText>
               Portfolio React application tells about the Resume, Projects and many other things.
               </CardText>

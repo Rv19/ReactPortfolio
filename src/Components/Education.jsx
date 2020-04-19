@@ -7,7 +7,7 @@ class Education extends Component {
       <div className="card-img-top-resume">
       <Grid className="resume-grid">
         <img
-                src="resume.jpeg"
+                src="Resume.jpeg"
                 alt="avatar"
                 style={{height: '870px',width:'870px',margin:'auto'}}
                  />
